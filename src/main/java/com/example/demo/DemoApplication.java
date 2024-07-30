@@ -13,7 +13,7 @@ public class DemoApplication {
 	
 	@GetMapping("/")
 	public String getMessage() {
-		return "Hurray!! Openshift deployment is successful";
+		return "Hurray!! Openshift deployment is successful in OCP Sandbox";
 	}
 	
 	@PostMapping("/{name}")
